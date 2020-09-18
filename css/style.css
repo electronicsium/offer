@@ -506,7 +506,7 @@ ol {
 
 .hero-slider .hs-item {
   position: relative;
-  height: 720px;
+  height: 100vh;
 }
 
 .hero-slider .hs-item span {
