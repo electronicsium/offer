@@ -1,1 +1,1 @@
-backend_url = "http://electronicsium.pythonanywhere.com";
+backend_url = "https://electronicsium.pythonanywhere.com";
