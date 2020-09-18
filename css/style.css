@@ -122,7 +122,9 @@ ol {
 -----------------------*/
 
 /* buttons */
-
+.p-title span {
+  color: #f51167;
+}
 .site-btn {
   display: inline-block;
   border: none;
