@@ -18,7 +18,7 @@ function product(id, imgsrc, price, title) {
   p.textContent = title;
 
   a = document.createElement("a");
-  a.setAttribute("href", `offer/product.html?pid=${id}`);
+  a.setAttribute("href", `product.html?pid=${id}`);
   a.setAttribute("target", "_blank");
 
   div4.appendChild(h6);
