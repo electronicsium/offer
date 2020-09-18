@@ -39,7 +39,7 @@ function get_data(url) {
     .then((res) => res.json())
     .then((data) => {
       data.results.forEach((e) => {
-        product(e.id, `${backend_url}${e.img}`, `$${e.price}`, e.title);
+        product(e.id, `${backend_url}${e.img}`, `${e.price}`, e.title);
       });
       next = data.next;
       if (next == null) {
